@@ -1,6 +1,10 @@
 {
   "name": "monorepo",
+  "version": "0.0.0",
   "module": "index.ts",
+  "bin": {
+    "monorepo": "./index.ts"
+  },
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
