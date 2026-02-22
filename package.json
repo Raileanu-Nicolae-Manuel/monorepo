@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "module": "index.ts",
   "bin": {
-    "monorepo": "./index.ts"
+    "monorepo": "./cli.js"
   },
   "type": "module",
   "devDependencies": {
