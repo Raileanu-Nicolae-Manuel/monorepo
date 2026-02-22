@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-rnm:dev": "pnpm --filter create-rnm dev",
+    "create-rnm:build": "cd packages/create-rnm-bun && bun build src/index.ts --compile --outfile ./../../rnm",
+    "create-rnm": "pnpm run create-rnm:build && ./rnm"
+  },
+  "keywords": [],
+  "author": "Raileanu Nicolae Manuel",
+  "license": "MIT",
+  "packageManager": "pnpm@10.28.2"
+}
